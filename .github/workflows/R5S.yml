@@ -1,4 +1,4 @@
-name: Rockchip
+name: R5S
 
 on:
   repository_dispatch:
@@ -10,7 +10,7 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   EXTERNAL_FILE: configs/luci/Lite.config
-  CONFIG_FILE: configs/Rockchip.config
+  CONFIG_FILE: configs/R5S.config
   SYS_CONF_SH: configure.sh
   PACKS: package.sh
   EXTEND_DRIVER: true
